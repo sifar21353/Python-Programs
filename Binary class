@@ -1,0 +1,43 @@
+class Binary():
+  def __init__(self, a = '', b = 0):
+    self.binary_n = a
+    self.decimal_n = b
+  
+  def validate(self):
+    for char in self.binary_n:
+      if char != '0' and char != '1':
+        return False  
+      return True
+
+  def return_binary_value(self):
+    a = 0
+    b = self[::-1]
+    if Binary.validate(self):
+      for char in range(len(self)):
+        if b[char] == '1':
+          a += 2**char
+      return a
+    else:
+      return 'Invalid!'
+
+  def return_int_value(self):
+    if Binary.validate(self.binary_n):
+      if self == '':
+        return ''
+      else:
+        return int(self.binary_n, 2)
+    else:
+      return 'Invalid!'
+
+  def __add__(self, other):
+    other = Binary.return_int_value(other)
+    b = Binary.return_int_value(self.binary_n)
+    return Binary.return_binary_value(str(other + b))
+
+  def __mul__(self, other):
+    other = Binary.return_int_value(other)
+    b = Binary.return_int_value(self.binary_n)
+    return Binary.return_binary_value(str(other * b))
+
+a = Binary('10', 23)
+print(a + Binary('11'))
