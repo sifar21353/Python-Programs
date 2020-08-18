@@ -9,3 +9,4 @@ This repository contains various programs I did while l am learning Python. Belo
 5. Palindrome.py - This program detects whether a string is a palindrome or not.
 6. Sentencereverse.py - This program switches the order of words in a string. For example, this program will turn 'Hello my friend' to 'friend my Hello'.
 7. Tempertureconvert.py - This program can convert Fahrenheit to Celsius, Celsius to Fahrenheit, Celsius to Kelvin, Kelvin to Celsius, Fahrenheit to Kelvin and Kelvin and Fahrenheit. 
+8. fraction.py - This program contains a class called fractions().
