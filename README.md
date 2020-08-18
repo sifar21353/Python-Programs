@@ -6,3 +6,4 @@ This repository contains various programs I did while l am learning Python. Belo
 2. List_max_min.py - This program prints the maximum and minimum value in a list.
 3. Memotization.py - This is a sample code that uses memotization.
 4. Multiple_Inheritance.py - This is a sample code that uses multiple class inheritance.
+5. Palindrome.py - This program detects whether a string is a palindrome or not.
