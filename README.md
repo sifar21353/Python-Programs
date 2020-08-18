@@ -7,3 +7,4 @@ This repository contains various programs I did while l am learning Python. Belo
 3. Memotization.py - This is a sample code that uses memotization.
 4. Multiple_Inheritance.py - This is a sample code that uses multiple class inheritance.
 5. Palindrome.py - This program detects whether a string is a palindrome or not.
+6. Sentencereverse.py - This program switches the order of words in a string. For example, this program will turn 'Hello my friend' to 'friend my Hello'.
